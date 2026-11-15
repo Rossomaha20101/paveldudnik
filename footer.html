@@ -1,0 +1,70 @@
+<!-- Footer -->
+<footer id="footer">
+  <div class="row">
+    <div class="twelve columns">
+      <ul id="menu-footer" class="footer-nav">
+        <li class="menu-item current-menu-item current_page_item menu-item-home"><a href="./index.html" aria-current="page">Главная</a></li>
+        <li class="menu-item"><a href="./about.html">Обо мне</a></li>
+        <li class="menu-item"><a href="./video.html">Видео</a></li>
+        <li class="menu-item"><a href="./services.html">Услуги</a></li>
+        <li class="menu-item"><a href="./marafon.html">Марафон</a></li>
+        <li class="menu-item"><a href="./contact.html">Контакты</a></li>
+        <li class="menu-item"><a href="./reviews.html">Отзывы</a></li>
+      </ul>
+      
+      <p style="text-align: center;" class="footer-social">
+        <a href="https://vk.com/pavel.dudnik"><img src="./wp-content/uploads/2024/01/vk.webp" class="scale" alt="VK"></a>
+        <a href="https://www.instagram.com/dudnik_pavel11/"><img src="./wp-content/uploads/2024/01/instagram.webp" class="scale" alt="Instagram"></a>
+        <a href="https://t.me/dudnik_pavel"><img src="./wp-content/uploads/2024/01/telegram.webp" class="scale" alt="Telegram"></a>
+        <a href="https://dzen.ru/id/60a52259e44d4f781abce1e2"><img src="./wp-content/uploads/2024/01/yandex-zen-icon.webp" class="scale" alt="Dzen"></a>
+        <a href="https://www.youtube.com/@pavel_DUDNIK"><img src="./wp-content/uploads/2024/01/youtube.webp" class="scale" alt="YouTube"></a>
+        <a href="https://rutube.ru/channel/23326642/videos/"><img src="./wp-content/uploads/2025/05/Rutube_icon.webp" class="scale" alt="Rutube"></a>
+      </p>
+      
+      <ul class="copyright">
+        <li>&copy; 2026 копирование материалов запрещено</li>
+      </ul>
+    </div>
+    <div id="go-top" style="display: block;"><a title="Back to Top" href="#">Go To Top</a></div>
+  </div>
+</footer>
+
+<!-- ===== СКРИПТЫ (Только те, что работают на статическом хостинге) ===== -->
+
+<!-- 1. Слайдер отзывов и тултипы -->
+<script src="./wp-content/plugins/gs-logo-slider/assets/libs/swiper-js/swiper.min.js"></script>
+<script src="./wp-content/plugins/gs-logo-slider/assets/libs/tippyjs/tippy-bundle.umd.min.js"></script>
+<script src="./wp-content/plugins/gs-logo-slider/assets/libs/images-loaded/images-loaded.min.js"></script>
+<script src="./wp-content/plugins/gs-logo-slider/assets/js/gs-logo.min.js"></script>
+
+<!-- 2. Скрипты темы (меню, слайдер intro, прокрутка) -->
+<script src="./wp-content/themes/main/assets/js/jquery.flexslider.js"></script>
+<script src="./wp-content/themes/main/assets/js/doubletaptogo.js"></script>
+<script src="./wp-content/themes/main/assets/js/init.js"></script>
+<script src="./wp-content/themes/main/assets/js/modernizr.js"></script>
+<script src="./wp-content/themes/main/js/navigation.js"></script>
+<script src="./wp-content/themes/main/js/skip-link-focus-fix.js"></script>
+<script src="./wp-includes/js/jquery/ui/core.min.js"></script>
+
+<!-- 3. Ленивая загрузка изображений -->
+<script src="./wp-content/plugins/lazy-loading-responsive-images/js/lazysizes.min.js"></script>
+<script src="./wp-content/plugins/lazy-loading-responsive-images/js/ls.unveilhooks.min.js"></script>
+
+<!-- 4. Elementor (анимации и виджеты) -->
+<script src="./wp-content/plugins/elementor/assets/js/webpack.runtime.min.js"></script>
+<script src="./wp-content/plugins/elementor/assets/js/frontend-modules.min.js"></script>
+<script src="./wp-content/plugins/elementor/assets/lib/waypoints/waypoints.min.js"></script>
+<script>
+// Конфигурация Elementor для статического режима
+var elementorFrontendConfig = { 
+  "environmentMode": { "edit": false, "wpPreview": false, "isScriptDebug": false }, 
+  "is_rtl": false, 
+  "breakpoints": { "xs": 0, "sm": 480, "md": 768, "lg": 1025, "xl": 1440, "xxl": 1600 }, 
+  "version": "3.18.3", 
+  "urls": { "assets": "./wp-content/plugins/elementor/assets/" }, 
+  "swiperClass": "swiper", 
+  "kit": { "active_breakpoints": ["viewport_mobile", "viewport_tablet"], "global_image_lightbox": "yes" } 
+};
+</script>
+<script src="./wp-content/plugins/elementor/assets/js/frontend.min.js"></script>
+<script src="./wp-includes/js/underscore.min.js"></script>
